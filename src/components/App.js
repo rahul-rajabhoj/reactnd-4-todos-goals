@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import ConnectedTodos from './Todos';
 import ConnectedGoals from './Goals';
-import handleInitialData from '../actions/shared';
+import { handleInitialData } from '../actions/shared';
 
 class App extends React.Component {
   componentDidMount() {
